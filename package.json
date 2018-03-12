@@ -1,0 +1,23 @@
+{
+  "name": "babel-google-cloud-functions",
+  "version": "1.0.0",
+  "description": "Google Cloud Functions with Babel sample",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib --source-maps  "  
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/idlebot/babel-google-cloud-functions.git"
+  },
+  "author": "idlebot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idlebot/babel-google-cloud-functions/issues"
+  },
+  "homepage": "https://github.com/idlebot/babel-google-cloud-functions#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
