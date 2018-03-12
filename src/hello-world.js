@@ -1,5 +1,5 @@
 const helloHttp = (req, res) => {
-  res.send(`Hello ${req.body.name || ' d World'}!`);
+  res.send(`Hello ${req.body.name || 'World'}!`);
 };
 
 export default helloHttp;
